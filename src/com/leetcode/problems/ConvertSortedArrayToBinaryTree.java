@@ -1,7 +1,7 @@
 package com.leetcode.problems;
 
 /*
-Programme for convert sorted array to BST.
+Program for convert sorted array to BST.
 Leetcode : 108  difficulty: easy
  */
 class TreeNode {
