@@ -78,14 +78,13 @@ public class MedianOfTwoSortedArray {
 
         int[] arr1 = new int[]{1, 3, 6};
         int[] arr2 = new int[]{2, 8, 12};
-//        System.out.println(median.medianOfTwoSortedArrayWithExtraSpace(arr1, arr2));
-//        System.out.println(median.medianOfTwoSortedArrayWithoutExtraSpace(arr1, arr2, arr1.length));
-//
-//        arr1 = new int[]{1, 3, 4, 6, 9};
-//        arr2 = new int[]{2, 5, 7, 8, 10};
-//        System.out.println(median.medianOfTwoSortedArrayWithExtraSpace(arr1, arr2));
-//        System.out.println(median.medianOfTwoSortedArrayWithoutExtraSpace(arr1, arr2, arr1.length));
+        System.out.println(median.medianOfTwoSortedArrayWithExtraSpace(arr1, arr2));
+        System.out.println(median.medianOfTwoSortedArrayWithoutExtraSpace(arr1, arr2, arr1.length));
 
+        arr1 = new int[]{1, 3, 4, 6, 9};
+        arr2 = new int[]{2, 5, 7, 8, 10};
+        System.out.println(median.medianOfTwoSortedArrayWithExtraSpace(arr1, arr2));
+        System.out.println(median.medianOfTwoSortedArrayWithoutExtraSpace(arr1, arr2, arr1.length));
 
         arr1 = new int[]{};
         arr2 = new int[]{1};
