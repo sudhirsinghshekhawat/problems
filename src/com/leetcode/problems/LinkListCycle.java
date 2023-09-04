@@ -1,10 +1,6 @@
 package com.leetcode.problems;
 
-
-import java.util.List;
-
 public class LinkListCycle {
-
     public boolean hasCycle(ListNode head) {
 
         if (head == null)
