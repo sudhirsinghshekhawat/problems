@@ -12,8 +12,8 @@ public class ReversePolishNotation {
 
             if (token.equals("+") || token.equals("-") || token.equals("*") || token.equals("/")) {
 
-                int number1 = stack.pop();
                 int number2 = stack.pop();
+                int number1 = stack.pop();
 
                 int result = 0;
 
